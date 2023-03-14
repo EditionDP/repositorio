@@ -1,13 +1,10 @@
 .proyectos__all{
     display: flex;
-    flex-direction: column;
-    align-items:center;
-    padding: 0px;
-    gap: 32px;
-    margin: 0 32px 64px 32px;
-    margin-bottom: 1rem;
-}
-
-.proyectos__seccion{
-    margin-top: 13px;        
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    width: 86%;
+    margin-bottom: 8rem; 
+    gap: 32px;        
 }

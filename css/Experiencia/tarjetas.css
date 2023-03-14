@@ -1,11 +1,9 @@
 
 .container_card {
-    display: flex;
-    margin-right: 5%;
-    margin-left: 5%;
-    width: 100%;
-    align-items: stretch;
+    display: flex;    
+    margin: 0;
     flex-wrap: wrap;
+    
     
 }
 
