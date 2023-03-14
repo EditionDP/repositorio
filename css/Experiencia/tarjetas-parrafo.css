@@ -1,0 +1,17 @@
+.tarjeta__parrafo{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: 4rem;
+    text-align: center;
+    font-family: 'Poppins-Italic';
+    
+}
+
+.tarjeta__descripcion{
+    margin: 1rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 4rem;
+    font-family: 'Poppins-Italic';
+        
+}

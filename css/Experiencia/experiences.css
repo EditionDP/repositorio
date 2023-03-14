@@ -1,0 +1,13 @@
+.experiences {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 2%;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 8rem;   
+
+}
+
+
