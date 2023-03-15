@@ -21,7 +21,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 .all{
-    margin: 0 10px 0 0;
+    margin: 0;
                
 }
 
@@ -45,8 +45,7 @@
         background:none;
         
     }
-
-    
+        
     .skills__tarjetas{
         font-size: 0.8rem;
     }
@@ -57,52 +56,8 @@
         
     }
 
-    /*Proyecto*/
-
-    .proyectos__seccion .proyecto__experiencia{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .proyecto2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;        
-    }
-
-    .proyecto3{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;        
-    }
-
-    .proyecto__imagen{
-        background-size: 36%;
-        background-repeat: no-repeat;
-        background-position: center;
-        display: flex;         
-    }
-
-    .proyecto__imagen--juego{
-        background-size: 50%;
-        background-repeat: no-repeat;
-        background-position: center;
-        display: flex;
-    }
-
-    .proyecto__imagen--juego3{
-        background-size: 50%;
-        background-repeat: no-repeat;
-        background-position: center;
-        display: flex;
-    }
-
-   
-    .proyecto__reto{
-        font-size: 100%;
-        
-    }    
+  
+       
 }
 
 @media (max-width: 900px){
@@ -218,55 +173,9 @@
     .tarjeta__parrafo{
         font-size: 80%;
     }
-
-    /*Proyecto*/
-
-    .proyectos__seccion .proyecto__experiencia{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .proyecto2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;        
-    }
-
-    .proyecto3{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;        
-    }
-
-    
-    .proyecto__imagen{
-        background-size: 36%;
-        background-repeat: no-repeat;
-        background-position: center;
-        display: flex;         
-    }
-
-    .proyecto__imagen--juego{
-        background-size: 50%;
-        background-repeat: no-repeat;
-        background-position: center;
-        display: flex;
-    }
-
-    .proyecto__imagen--juego3{
-        background-size: 50%;
-        background-repeat: no-repeat;
-        background-position: center;
-        display: flex;
-    }
-
-
-    .proyecto__reto{
-        font-size: 100%;
-        
-    }
-
+         
+  
+  
     .contact__info{
         width: 20%;
         justify-content: center;
@@ -278,6 +187,20 @@
 
 @media (max-width: 360px){
 
+    .type{
+        font-size: 0.8rem;
+        
+    }
+      
+      .type__stile{
+        font-size: 0.6rem;
+    }
+    .marca{
+        height: 5rem;
+        width: 7rem;
+      }
+
+
     .perfil_descripcion{
         display: flex;
         width: auto;
@@ -288,9 +211,41 @@
     .container_vector{
         display: none;
     }
-      
+
+    .container_card {
+        display: flex;
+        width: 100%;
+        align-items: stretch;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .card {
+        width: 280px;
+        height: 360px;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: all 900ms;
     
-             
+    } 
+    .tarjeta__parrafo{
+        margin-top: 9px;
+        margin-bottom: 0;
+        font-size: 0.8rem;
+        font-weight: 4rem;
+        text-align: center;
+        font-family: 'Poppins-Italic';
+        
+    }
+    
+    .tarjeta__descripcion{
+        margin: 1rem 0;
+        font-size: 0.9rem;
+        font-weight: 4rem;
+        font-family: 'Poppins-Italic';
+            
+    }     
+               
     .tarjeta__descripcion{
         font-size: 13px;
         font-weight: 50px;
@@ -316,65 +271,26 @@
 
    
     /*Proyecto*/
-
-    .proyectos__seccion .proyecto__experiencia{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .proyecto2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;        
+     
+    .proyecto__imagen{ 
+        width: 100%; 
+        margin-top: 0;      
+                       
     }
 
-    .proyecto3{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;        
-    }
-
-  
-    .proyecto__imagen{
-        background-size: 30%;
-        background-repeat: no-repeat;
-        background-position: center;
-        display: flex;         
-    }
-
-    .proyecto__imagen--juego{
-        background-size: 38%;
-        background-repeat: no-repeat;
-        background-position: center;
-        display: flex;
-    }
-
-    .proyecto__imagen--juego3{
-        background-size: 40%;
-        background-repeat: no-repeat;
-        background-position: center;
-        display: flex;
-    }
-
-  
-    .proyecto__reto{
-        font-size: 100%;
-        margin-left: 2.8rem;
+    .proyecto__button {
+       padding: 10px 12px;
+       font-size: 12px;
         
     }
 
-    .proyecto__descripcion{
-        font-size: 100%;
-        margin-left: 2.8rem;
-
+    .proyecto__demo {
+        padding: 10px 12px;
+        font-size: 12px;      
     }
+    
 
-    .proyecto__botones{
-        margin-left: 2.8rem;
-        background-position: center;
-    }
-
+  
     .contact__info{
         width: 20%;
         justify-content: center;

@@ -1,25 +1,8 @@
 .proyecto__imagen {
-    width: 65rem;
-    height: 25rem;
-    background-repeat: no-repeat;
-    background: url(/proyecto_imagenes/minalura.png);
-    border-radius: 0px;
-    margin-bottom: 16px;
-}
-
-.proyecto__imagen--juego{
-    width: 752px;
-    height: 406px;
-    background: url(/proyecto_imagenes/barberiaalura.png);
-    border-radius: 0px;
-    justify-content: space-between;    
-}
-
-.proyecto__imagen--juego3{
-    width: 752px;
-    height: 406px;
-    background: url(/proyecto_imagenes/secretcode_print.png);
-    border-radius: 0px;
-    justify-content: space-between;    
+    width: 18rem;
+    height: 12rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    
 }
 

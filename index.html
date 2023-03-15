@@ -37,15 +37,12 @@
     <link rel="stylesheet" href="./css/Formacion/formacion-all.css">
     <link rel="stylesheet" href="./css/Formacion/formacion-contenido.css">
     <link rel="stylesheet" href="./css/Formacion/formacion-tarjetas.css">
-    <link rel="stylesheet" href="./css/Experiencia/Proyectos/proyecto-experiencia.css">
-    <link rel="stylesheet" href="./css/Experiencia/Proyectos/proyectos-items.css">
-    <link rel="stylesheet" href="./css/Experiencia/Proyectos/proyectos-all.css">
+    <link rel="stylesheet" href="./css/Experiencia/Proyectos/proyecto-tarjetas.css">
     <link rel="stylesheet" href="./css/Experiencia/Proyectos/proyecto-imagen.css">
     <link rel="stylesheet" href="./css/Experiencia/Proyectos/proyecto-button.css">
     <link rel="stylesheet" href="./css/Contacto/contact.css">
     <link rel="stylesheet" href="./css/Finalpage/finalpage.css">
     <link rel="stylesheet" href="./css/Finalpage/final-pageright.css">
-
     <link rel="stylesheet" href="./css/stils.css">
     <link rel="stylesheet" href="./css/main.css" />
     <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
@@ -62,7 +59,7 @@
                 <a class="logo">
                     <img class="marca" src="./imagenes/marca2.png" alt="programador" />
                     <div class="logotype">
-                        <h2 class="type">Andres Martinez<br/><span class="auto__type type__stile"></span></h2>                        
+                        <h2 class="type">Andres Martinez<br /><span class="auto__type type__stile"></span></h2>
                     </div>
                 </a>
                 <button class="open-menu" aria-label="Abrir menú">
@@ -161,13 +158,17 @@
 
                 <nav>
                     <ul class="formacion__contenido">
-                        <li class="formacion__tarjetas formacion__tarjetas1"><a href="https://www.aluracursos.com/" target="_blank">Formación de UX Design <br>
+                        <li class="formacion__tarjetas formacion__tarjetas1"><a href="https://www.aluracursos.com/"
+                                target="_blank">Formación de UX Design <br>
                                 <p>2023 - Alura</p>
                             </a></li>
-                        <li class="formacion__tarjetas formacion__tarjetas2"><a href="https://www.areandina.edu.co/" target="_blank">Ingenieria de Sistemas <br>
+                        <li class="formacion__tarjetas formacion__tarjetas2"><a href="https://www.areandina.edu.co/"
+                                target="_blank">Ingenieria de Sistemas <br>
                                 <p>2022 - AreaAndina</p>
                             </a></li>
-                        <li class="formacion__tarjetas formacion__tarjetas3"><a href="https://www.sena.edu.co/es-co/Paginas/default.aspx" target="_blank">Gestión de Redes de Datos <br>
+                        <li class="formacion__tarjetas formacion__tarjetas3"><a
+                                href="https://www.sena.edu.co/es-co/Paginas/default.aspx" target="_blank">Gestión de
+                                Redes de Datos <br>
                                 <p>2014 - Sena</p>
                             </a></li>
                     </ul>
@@ -275,49 +276,96 @@
             </div>
 
         </section>
-        <section class="proyectos__seccion">
+        <section class="experiences" id="experience">
+
             <h2 class="sobre__titulos">Proyectos</h2>
-            <div class="proyectos__all">
-                <div class="proyecto__experiencia">
-                    <div class="proyecto__imagen"></div>
-                    <div class="proyecto">
-                        <span class="proyecto__reto">Mini Alura</span>
-                        <span class="proyecto__descripcion">Curso Oracle</span>
-                        <div class="proyecto__botones">
-                            <a href="https://github.com/EditionDP/minialura" target="_blank"><button
-                                    class="proyecto__button">Repositório</button></a>
-                            <a href="https://editiondp.github.io/minialura/" target="_blank"><button class="proyecto__demo">Ver demo</button></a>
+
+            <div class="container_card">
+                <div class="card_father">
+                    <div class="card">
+                        <div class="card_front img_front">
+                            <div class="bg"></div>
+                            <div class="body_card_front">
+                                <h1 class="tarjeta__titulo">Mini Alura</h1>
+                            </div>
+                        </div>
+                        <div class="card_back">
+                            <div class="tarjeta__back">
+
+                                <h3 class="trajeta__title">Curso Oracle</h3>
+                                <div class="proyecto__imagen">
+                                    <img class="proyecto__imagen" src="./proyecto_imagenes/minalura.png"
+                                        alt="Imagen Challenge">
+                                </div>
+                                <div class="proyecto__botones"><a href="https://github.com/EditionDP/minialura"
+                                    target="_blank"><button class="proyecto__button">Repositório</button></a>
+                                <a href="https://editiondp.github.io/minialura/" target="_blank"><button
+                                        class="proyecto__demo">Ver demo</button></a></div>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="proyecto2">
-                    <div class="proyecto__imagen--juego"></div>
-                    <div class="proyecto">
-                        <span class="proyecto__reto">Barbería Alura</span>
-                        <span class="proyecto__descripcion">Curso Oracle</span>
-                        <div class="proyecto__botones">
-                            <a href="https://github.com/EditionDP/barberiaalura" target="_blank"><button
-                                    class="proyecto__button">Repositório</button></a>
-                            <a href="https://editiondp.github.io/barberiaalura/" target="_blank"><button class="proyecto__demo">Ver demo</button></a>
+
+                <div class="card_father">
+                    <div class="card">
+                        <div class="card_front img_front2">
+                            <div class="bg"></div>
+                            <div class="body_card_front">
+                                <h1 class="tarjeta__titulo">Barbería Alura</h1>
+                            </div>
+                        </div>
+                        <div class="card_back">
+                            <div class="tarjeta__back">
+
+                                <h3 class="trajeta__title">Curso Oracle</h3>
+                                <div class="proyecto__imagen">
+                                    <img class="proyecto__imagen" src="./proyecto_imagenes/barberiaalura.png"
+                                        alt="Imagen Challenge">
+                                </div>
+                                <div class="proyecto__botones">
+                                    <a href="https://github.com/EditionDP/barberiaalura"
+                                    target="_blank"><button class="proyecto__button">Repositório</button></a>
+                                <a href="https://editiondp.github.io/barberiaalura/" target="_blank"><button
+                                        class="proyecto__demo">Ver demo</button></a>
+                                </div> 
+
+
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="proyecto3">
-                    <div class="proyecto__imagen--juego3"></div>
-                    <div class="proyecto">
-                        <span class="proyecto__reto">Encriptador de Texto</span>
-                        <span class="proyecto__descripcion">Challenge Oracle</span>
-                        <div class="proyecto__botones">
-                            <a href="https://github.com/EditionDP/challenge" target="_blank"><button
-                                    class="proyecto__button">Repositório</button></a>
-                            <a href="https://editiondp.github.io/challenge/" target="_blank"><button class="proyecto__demo">Ver demo</button></a>
+
+                <div class="card_father">
+                    <div class="card">
+                        <div class="card_front img_front3">
+                            <div class="bg"></div>
+                            <div class="body_card_front">
+                                <h1 class="tarjeta__titulo">Encriptador de Texto</h1>
+                            </div>
+                        </div>
+                        <div class="card_back">
+                            <div class="tarjeta__back">
+
+                                <h3 class="trajeta__title">Challenge Oracle</h3>
+                                <div class="proyecto__imagen">
+                                    <img class="proyecto__imagen" src="./proyecto_imagenes/secretcode_print.png"
+                                        alt="Imagen Challenge">
+                                </div>
+                                <div class="proyecto__botones">
+                                    <a href="https://github.com/EditionDP/challenge"
+                                    target="_blank"><button class="proyecto__button">Repositório</button></a>
+                                <a href="https://editiondp.github.io/challenge/"
+                                    target="_blank"><button class="proyecto__demo">Ver demo</button></a>
+                                </div>                                
+                            </div>
                         </div>
                     </div>
                 </div>
-                
             </div>
 
         </section>
+
         <section>
             <h2 class="sobre__titulos">Contacto</h2>
             <div class="contact" id="contact">
@@ -338,7 +386,7 @@
 
 
     </div>
-    
+
     <div class="finalpage">
         <footer class="rodape">
             <img class="logofooter" src="./imagenes/logofooter2.gif">
@@ -347,8 +395,8 @@
     </div>
 </body>
 <script>
-    var typed = new Typed(".auto__type",{
-        strings:["{Code}","Frontend"],
+    var typed = new Typed(".auto__type", {
+        strings: ["{Code}", "Frontend"],
         typedSpeed: 100,
         backSpeed: 100,
         loop: true

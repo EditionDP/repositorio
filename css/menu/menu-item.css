@@ -73,16 +73,15 @@
 @media screen and (max-width:1024px) {
 
   .menu {    
-    width: 300px;
+    width: 200px;
     height: 350px;
     padding: 2rem;
     background-image: url(/Fondo/menu.jpeg);
-    background-repeat: no-repeat;
-    background-position: bottom;
+    background-repeat: no-repeat;    
     background-size: cover;
     border-radius: 10px;
     box-shadow: 3px 3px 8px #c70f0f85; 
-    display: block;
+    display: flex;
     flex-direction: column; 
     text-align: center;   
     opacity: 0;
@@ -119,7 +118,7 @@
 
   .open-menu,
   .close-menu {
-    display: block;
+    display: inline;
     border: none;
     background: none;
     cursor: pointer;
@@ -127,9 +126,8 @@
   
 
   .close_img {
-    display: block  ;
+    display: inherit;
     margin-right: 0;
-    margin-left: 250px;
     width: 50px;
 
   }
@@ -153,3 +151,4 @@
     color: var(--secundary-color);
   }
 }
+
