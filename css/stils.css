@@ -64,7 +64,7 @@
    
     * {
         margin: 0;
-        padding: 1px;       
+        padding: 0;       
                 
     } 
 
@@ -116,6 +116,13 @@
        
     .profile{
         background:none;
+        
+    }
+
+    .sobre__marca{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 6rem;
         
     }
 
@@ -192,7 +199,7 @@
         
     }
       
-      .type__stile{
+    .type__stile{
         font-size: 0.6rem;
     }
     .marca{

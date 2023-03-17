@@ -4,9 +4,19 @@
     
 }
 
+.sobre__marca{
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+    font-size: 50px;
+    font-weight: 900px;
+    color: #373737;
+    font-family: ravie;
+    text-align: center;
+}
+
 .sobre__titulos{
-    margin-top: 4rem;
-    margin-bottom: 6rem;
+    margin-top: 7rem;
+    margin-bottom: 4rem;
     font-size: 50px;
     font-weight: 900px;
     color: #373737;
