@@ -30,7 +30,9 @@
 .card_front {
     background-size: 21.1rem 30rem;
     background-position: center;
+    background-image: url(/imagenes/microhard2.png);
     background-repeat: no-repeat;
+
         
 }
 

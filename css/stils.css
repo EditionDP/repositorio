@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&display=swap');
 
 @font-face {
     font-family: 'ravie';
@@ -123,6 +124,7 @@
         font-size: 20px;
         text-align: center;
         margin-top: 6rem;
+        font-family: ravie;
         
     }
 
@@ -132,10 +134,13 @@
         text-align: center;
         margin-top: 1rem;
         margin-bottom: 2rem;
+        font-family: ravie;
     }
     .sobre__titulo2{
         font-size: 40px;
         text-align: center;
+        font-family: 'Poppins';
+        
     }
     .skills__all{
         margin-top: 1rem;
@@ -205,7 +210,29 @@
     .marca{
         height: 5rem;
         width: 7rem;
-      }
+    }
+    .sobre__marca{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 6rem;
+        font-family: ravie;
+        
+    }
+
+         
+    .sobre__titulos{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-family: ravie;
+    }
+    .sobre__titulo2{
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Poppins';
+        
+    }
 
 
     .perfil_descripcion{
@@ -229,7 +256,7 @@
     }
     .card {
         width: 280px;
-        height: 360px;
+        height: 380px;
         position: relative;
         transform-style: preserve-3d;
         transition: all 900ms;
