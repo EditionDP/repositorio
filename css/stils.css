@@ -263,7 +263,7 @@
     
     } 
     .tarjeta__parrafo{
-        margin-top: 9px;
+        margin-top: 7px;
         margin-bottom: 0;
         font-size: 0.8rem;
         font-weight: 4rem;
@@ -273,8 +273,8 @@
     }
     
     .tarjeta__descripcion{
-        margin: 1rem 0;
-        font-size: 0.9rem;
+        margin: 0.3rem 0;
+        font-size: 0.7rem;
         font-weight: 4rem;
         font-family: 'Poppins-Italic';
             
