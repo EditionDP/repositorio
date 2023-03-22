@@ -256,7 +256,7 @@
     }
     .card {
         width: 280px;
-        height: 380px;
+        height: 400px;
         position: relative;
         transform-style: preserve-3d;
         transition: all 900ms;
